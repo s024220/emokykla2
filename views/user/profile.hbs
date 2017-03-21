@@ -1,0 +1,15 @@
+<h1>User Profile</h1>
+
+<h1> Hello {{ username }} </h1>
+<!--<h1> Your ID is {{ id }}</h1>-->
+
+<form action="/user/profile" method="post">
+    <input type="hidden" name="_csrf" value="{{ csrfToken }}">
+
+    <input type="hidden" name="_method" value="PUT">
+    Jūsų dabartinis naudotojo vardas <input type="text" name="currentUsername" id="currentUsername" value="{{ username }}"><br>
+    Įveskite naują vartotojo vardą <input type="text" name="showname" id="newUsername">
+    <input type="submit">
+</form>
+
+<!--<a href="/user/updateProfile"> Update username</a>-->

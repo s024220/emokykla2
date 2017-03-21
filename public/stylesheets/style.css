@@ -1,0 +1,16 @@
+.thumbnail img {
+    max-height: 75px;
+}
+
+.thumbnail .description{
+    color: #7f7f7f;
+}
+
+.rb{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#hidden-button{
+    display: none;
+}
